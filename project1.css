@@ -5,9 +5,7 @@
 }
 a{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
-body.home{
-    position: sticky;
-    top: 0; left: 0;
+.home{
     margin:5pt;
 }
 
