@@ -5,15 +5,24 @@
 }
 a{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
-.home{
+body.home{
+    position: sticky;
+    top: 0; left: 0;
     margin:5pt;
 }
 
 .blink{
-    margin-bottom: 350pt;
+    margin-bottom: 300pt;
     margin-top: 50pt;
     position: relative;
+    left: 300pt;
+}
+
+.letters{
+    margin: 0pt;
+    position: relative;
     left: 250pt;
+    top: auto;
 }
 
 #blink_b{
@@ -70,13 +79,6 @@ a{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
     opacity: 0;}
     
 #blink_k_:hover{opacity: 1;}
-
-.letters{
-    margin: 0pt;
-    position: relative;
-    left: 200pt;
-    top: auto;
-}
 
 #A{ 
     position: absolute;
