@@ -9,67 +9,67 @@ a{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
     margin:5pt;
 }
 
-.julie{
+.blink{
     margin-bottom: 300pt;
     margin-top: 50pt;
     position: relative;
     left: 250pt;
 }
 
-#julie_j{
+#blink_b{
     position: absolute;
     left: 0pt; top: 5pt;}
 
-#julie_j_{ 
+#blink_b_{ 
     position: absolute;
     left: 0pt; top: 5pt;
     opacity: 0;}
     
-#julie_j_:hover{opacity: 1;}
+#blink_b_:hover{opacity: 1;}
 
-#julie_u{
+#blink_l{
     position: absolute;
     left: 130pt; top: 5pt;}
 
-#julie_u_{ 
+#blink_l_{ 
     position: absolute;
     left: 130pt; top: 5pt;
     opacity: 0;}
     
-#julie_u_:hover{opacity: 1;}
+#blink_l_:hover{opacity: 1;}
 
-#julie_l{
+#blink_i{
     position: absolute;
     left: 272pt; top: 5pt;}
 
-#julie_l_{ 
+#blink_i_{ 
     position: absolute;
     left: 272pt; top: 5pt;
     opacity: 0;}
     
-#julie_l_:hover{opacity: 1;}
+#blink_i_:hover{opacity: 1;}
 
-#julie_i{
+#blink_n{
     position: absolute;
-    left: 400pt; top: 5pt;}
+    left: 410pt; top: 5pt;}
 
-#julie_i_{ 
+#blink_n_{ 
     position: absolute;
-    left: 400pt; top: 5pt;
+    left: 410pt; top: 5pt;
     opacity: 0;}
     
-#julie_i_:hover{opacity: 1;}
+#blink_n_:hover{opacity: 1;}
 
-#julie_e{
+#blink_k{
     position: absolute;
-    left: 530pt; top: 5pt;}
+    left: 545pt; top: 5pt;}
 
-#julie_e_{ 
+#blink_k_{ 
     position: absolute;
-    left: 530pt; top: 5pt;
+    left: 545pt; top: 5pt;
     opacity: 0;}
     
-#julie_e_:hover{opacity: 1;}
+#blink_k_:hover{opacity: 1;}
 
 .letters{
     margin: 0pt;
@@ -245,142 +245,142 @@ a{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 #o{ 
     position: absolute;
-    left: 20pt; top: 330pt;}
+    left: 30pt; top: 330pt;}
 
 #o_{ 
     position: absolute;
-    left: 20pt; top: 330pt;
+    left: 30pt; top: 330pt;
     opacity: 0;}
 
 #o_:hover{opacity: 1;}
 
 #p{ 
     position: absolute;
-    left: 142pt; top: 330pt;}
+    left: 152pt; top: 330pt;}
 
 
 #p_{ 
     position: absolute;
-    left: 142pt; top: 330pt;
+    left: 152pt; top: 330pt;
     opacity: 0;}
 
 #p_:hover{opacity: 1;}
 
 #q{ 
     position: absolute;
-    left: 242pt; top: 330pt;
+    left: 252pt; top: 330pt;
     }
 
 #q_{ 
     position: absolute;
-    left: 242pt; top: 330pt;
+    left: 252pt; top: 330pt;
     opacity: 0;}
 
 #q_:hover{opacity: 1;}
 
 #r{ 
     position: absolute;
-    left: 384pt; top: 330pt;
+    left: 394pt; top: 330pt;
     }
 
 #r_{ 
     position: absolute;
-    left: 384pt; top: 330pt;
+    left: 394pt; top: 330pt;
     opacity: 0;}
 
 #r_:hover{opacity: 1;}
 
 #s{ 
     position: absolute;
-    left: 494pt; top: 330pt;
+    left: 504pt; top: 330pt;
     }
 
 #s_{ 
     position: absolute;
-    left: 494pt; top: 330pt;
+    left: 504pt; top: 330pt;
     opacity: 0;}
 
 #s_:hover{opacity: 1;}
 
 #t{ 
     position: absolute;
-    left: 616pt; top: 330pt;
+    left: 626pt; top: 330pt;
     }
 
 #t_{ 
     position: absolute;
-    left: 616pt; top: 330pt;
+    left: 626pt; top: 330pt;
     opacity: 0;}
 
 #t_:hover{opacity: 1;}
 
 #u{ 
     position: absolute;
-    left: 0pt; top:495pt;}
+    left: 25pt; top:495pt;}
 
 #u_{ 
     position: absolute;
-    left: 0pt; top: 495pt;
+    left: 25pt; top: 495pt;
     opacity: 0;}
 
 #u_:hover{opacity: 1;}
 
 #v{ 
     position: absolute;
-    left: 122pt; top: 495pt;}
+    left: 147pt; top: 495pt;}
 
 
 #v_{ 
     position: absolute;
-    left: 122pt; top: 495pt;
+    left: 147pt; top: 495pt;
     opacity: 0;}
 
 #v_:hover{opacity: 1;}
 
 #w{ 
     position: absolute;
-    left: 244pt; top: 495pt;
+    left: 269pt; top: 495pt;
     }
 
 #w_{ 
     position: absolute;
-    left: 244pt; top: 495pt;
+    left: 269pt; top: 495pt;
     opacity: 0;}
 
 #w_:hover{opacity: 1;}
 
 #x{ 
     position: absolute;
-    left:386pt; top: 495pt;
+    left:411pt; top: 495pt;
     }
 
 #x_{ 
     position: absolute;
-    left: 386pt; top: 495pt;
+    left: 411pt; top: 495pt;
     opacity: 0;}
 
 #x_:hover{opacity: 1;}
 
 #y{ 
     position: absolute;
-    left:496pt; top: 495pt;
+    left:521pt; top: 495pt;
     }
 
 #y_{ 
     position: absolute;
-    left: 496pt; top: 495pt;
+    left: 521pt; top: 495pt;
     opacity: 0;}
 
 #y_:hover{opacity: 1;}
 
 #z{ 
     position: absolute;
-    left: 606pt; top: 495pt;
+    left: 631pt; top: 495pt;
     }
 
 #z_{ 
     position: absolute;
-    left: 606pt; top: 495pt;
+    left: 631pt; top: 495pt;
     opacity: 0;}
 
 #z_:hover{opacity: 1;}
