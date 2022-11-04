@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    border: 0;
+    }
+
+body{
+    background-color: black;
+    font-family: 'Dosis', sans-serif;
+    color: beige;
+}
+    
+.all{
+    font-weight:800;
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    line-height: 50px;
+    word-spacing: 60px;
+
+    width: 100%;
+    height: 100%;
+
+    animation: changedimention 12s infinite alternate-reverse;
+}
+
+/*.all{
+    font-weight:800;
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    line-height: 50px;
+    word-spacing: 75px;
+    
+    text-align: center;
+
+    animation: changedimention 12s infinite alternate-reverse;
+}*/
+
+
+.blink {
+    animation: blink 2s infinite;
+  }
+  
+  
+.blink2 {
+    animation: blink 2s infinite ;
+    animation-delay: 1s ;
+  
+}
+
+#home{
+    animation: blink 5s infinite, changesize 3s infinite alternate-reverse;
+    animation-delay: 2s ;
+    position:absolute;
+    top: 150px;
+    left: 300px;
+    color: beige;
+}
+
+#star{ 
+    animation: blink 5s infinite alternate-reverse, changesize 5s infinite alternate-reverse;
+    animation-delay: 0.5s ;
+    position:absolute;
+    top: 800px;
+    left: 1500px;
+    color: beige;
+}
+
+#midnight{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: beige;
+    font-size: 50px;
+    animation: changedimention 12s infinite alternate-reverse, blink 4s infinite alternate;
+}
+
+#star2{ 
+        animation: blink 4s infinite alternate-reverse, changesize2 6s infinite alternate-reverse;
+        animation-delay: 0.75s ;
+        position:absolute;
+        top: 700px;
+        left: 700px;
+        color: beige;
+}
+
+    @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    
+    @keyframes changedimention{
+        0%{
+            transform: rotate(-50deg) skew(8deg, 30deg);
+        }
+        30%{
+            transform: rotate(-35deg) skew(5deg, 5deg);
+        }
+        50%{
+            transform: rotate(0deg);
+        }
+        70%{
+            transform: rotate(35deg) skew(-5deg, -5deg);
+        }
+        100%{
+            transform: rotate(50deg) skew(-8deg, -30deg);
+          }
+      }
+      
+      @keyframes changesize{
+        0%{
+            font-weight:800;font-size: 30px;
+        }
+        100%{
+            font-weight:600;font-size: 20px;
+          }
+      }
+
+      @keyframes changesize2{
+        0%{
+            font-weight:800;font-size: 40px;
+        }
+        100%{
+            font-weight:600;font-size: 30px;
+          }
+      }

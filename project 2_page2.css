@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    color: beige;
+}
+
+.all{
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+width: 60%;
+
+font-family: 'Dosis', sans-serif;
+font-weight:800;
+font-size: 30px;
+letter-spacing: 0.1em;
+line-height: 35px;
+
+text-align: center;
+
+}
+
+#row1{
+    position: relative;
+    opacity: 0;
+    animation: move-text 1s alternate infinite;
+}
+#row2{
+    position: relative;
+    opacity: 0;
+    animation: move-text 1s alternate infinite;
+    animation-delay: 1s;
+}
+#row3{
+    position: relative;
+    opacity: 0;
+    animation: move-text 1s alternate infinite;
+    animation-delay: 2s;
+}
+
+#row4{
+    position: relative;
+    opacity: 0;
+    animation: move-text 1s alternate infinite;
+    animation-delay: 3s;
+}
+#row5{
+    position: relative;
+    opacity: 0;
+    animation: move-text 1s alternate infinite;
+    animation-delay: 4s;
+}
+#row6{
+    position: relative;
+    opacity: 0;
+    animation: move-text 1s alternate infinite;
+    animation-delay: 5s;
+}
+
+#text{
+    opacity: 0;
+    animation: show 1s forwards;
+    animation-delay: 6s;
+}
+
+#text::after{
+    opacity: 1;
+}
+
+@keyframes show {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes move-text {
+    0% { bottom: -0.4em; opacity: 1; }
+    50% { bottom: 0.4em; }
+    100% { bottom: 0; opacity: 1; }
+}
