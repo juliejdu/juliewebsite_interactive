@@ -8,16 +8,19 @@ h1{
 
 pre {
     margin: 0;
-    color: #f5f5f1;
-    text-align: center;
+    margin-left: 40px;
+    color: white;
     font-size: 20pt;
 
 }
 
-li{
-    margin-left: 570px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #dfdcd4;
-    font-size: 20pt;
+.julie{
+    position:absolute;
+    top: 400px;
+    left: 300px;
 }
 
+.list{
+    position:absolute;
+    top: 435px;
+    left: 730px;}
