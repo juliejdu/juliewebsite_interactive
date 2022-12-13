@@ -3,6 +3,8 @@ let sun
 let numPlanets = 4
 let G = 120
 let destabilise = 0.15
+var x =0;
+xspead = 1
 
 function setup() {
   createCanvas(windowWidth,windowHeight)
@@ -36,6 +38,12 @@ function draw() {
     planets[i].show()
   }
   sun.show()
+  fill(0)
+  ellipse(x,0,200,200)  
+  if(x > 210 || x<-210){
+    xspead = -xspead
+  }  
+  x = x+xspead;
 
   let b = createA('project 3_page2.html', '<')
   b.position(50,height/2-25);
