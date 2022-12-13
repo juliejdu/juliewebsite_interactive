@@ -32,11 +32,6 @@ function setup() {
 function draw() {
   background(0)
   translate(width/2, height/2)
-  for (let i = numPlanets-1; i >= 0; i--) {
-    sun.attract(planets[i])
-    planets[i].move()
-    planets[i].show()
-  }
   sun.show()
   fill(0)
   ellipse(x,0,200,200)  
@@ -44,6 +39,11 @@ function draw() {
     xspead = -xspead
   }  
   x = x+xspead;
+  for (let i = numPlanets-1; i >= 0; i--) {
+  sun.attract(planets[i])
+  planets[i].move()
+  planets[i].show()
+}
 
   let b = createA('project 3_page2.html', '<')
   b.position(50,height/2-25);
